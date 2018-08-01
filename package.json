@@ -1,0 +1,25 @@
+{
+  "name": "groupoutnolanproxy",
+  "version": "1.0.0",
+  "description": "Modularized component proxy bringing together all group member files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroupOut/groupOutNolanProxy.git"
+  },
+  "author": "Nolsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GroupOut/groupOutNolanProxy/issues"
+  },
+  "homepage": "https://github.com/GroupOut/groupOutNolanProxy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
