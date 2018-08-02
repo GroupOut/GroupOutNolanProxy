@@ -9,19 +9,25 @@
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
+  <div id="titleComponent"></div>
+
   <div style="display:flex">
 
-    <span id="gallery"></span>
+    <div style="display:flex; flex-direction:column; width: 70%; border-right:1px solid #efefef">
+      <span id="gallery"></span>
+      <div id="reviews" ></div>
+    </div>
+    <div style="width:30%; margin-right: 7%;">
+      <span id='deal-info'></span>
+    </div>
 
-    <span id='deal-info'></span>
   </div>
 
-  <div id="reviews" ></div>
 
 
   <script src="http://localhost:3001/app.js"></script>
   <script src="http://localhost:3004/app.js"></script>
-
+<!-- REVERSED LOAD ORDER TO AVOID STYLING CONFLICT ISSUE -->
   <script src="http://localhost:3003/app.js"></script>
 
 </body>
